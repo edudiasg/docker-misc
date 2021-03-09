@@ -1,4 +1,4 @@
 FROM nginx:latest
 
-RUN apt-get update
-RUN apt-get install vim -y
+WORKDIR /app
+RUN apt-get update && apt-get install vim -y
