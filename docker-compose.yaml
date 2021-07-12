@@ -18,3 +18,4 @@ services:
 networks: 
   laranet:
     driver: bridge
+    
